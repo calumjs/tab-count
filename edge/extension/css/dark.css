@@ -1,0 +1,36 @@
+.page {
+    background-color:black;
+}
+
+div.group-subtitle{
+    color:rgba(255, 255, 255, 0.6);
+}
+
+
+button.close{
+    color:#fff;
+}
+button.close:hover, button.close:focus {
+    color:#fff;
+}
+a {
+    color:lightblue
+}
+
+/* Dark theme - Two-column stats */
+.tab-count-section {
+    background: #1f2937;
+    border: 1px solid #374151;
+}
+
+.tab-stats .value {
+    color: #93c5fd;
+}
+
+.tab-stats .label {
+    color: #9ca3af;
+}
+
+.tab-stats .divider {
+    background: #374151;
+}

@@ -1,0 +1,102 @@
+.page {
+    width:296px;
+    min-height:360px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+form {
+    padding: 8px 14px;
+}
+
+button.app-close {
+    position:absolute;
+    margin:5px;
+    top:0px;
+    right:0px;
+    font-size: 12px;
+}
+
+button.app-info {
+    position:absolute;
+    margin:5px;
+    bottom:0px;
+    left:0px;
+    font-size: 12px;
+}
+
+button.close {
+    opacity: 0.8;
+}
+
+button.close:hover, button.close:focus {
+    opacity: 1.0;
+}
+
+
+div.group-title {
+    font-size:14px;
+    margin-left:5px;
+}
+
+div.group-subtitle{
+    font-size:12px;
+    margin-left:5px;
+}
+
+div.section-title{
+    font-size:18px;
+    font-weight: bold;
+    margin:8px 0px 8px 3px;
+}
+
+.toggle-group {
+    margin-top:0px !important;
+}
+
+.combobox {
+    margin:5px 0px;
+}
+
+/* Tab Count Section - Two-column stats */
+.tab-count-section {
+    padding: 14px 12px;
+    margin-bottom: 14px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.tab-stats {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    align-items: center;
+    gap: 0px;
+}
+
+.tab-stats .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-stats .value {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2b6cb0; /* primary accent */
+    line-height: 1.1;
+}
+
+.tab-stats .label {
+    font-size: 11px;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-top: 2px;
+}
+
+.tab-stats .divider {
+    width: 1px;
+    height: 36px;
+    background: #e3e6ea;
+}

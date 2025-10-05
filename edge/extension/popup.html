@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tab Count for Microsoft Edge</title>
+  <link rel="stylesheet" href="css/winstrap.min.css?0.5.12" />
+  <link rel="stylesheet" href="css/site.css" />
+  <script src="js/jquery.min.js"></script>
+</head>
+
+<body class="page theme-alt">
+  <div class="app-form">
+    <form class="theme">
+      <!-- Tab Count Section - Two-column stats -->
+      <div class="tab-count-section">
+          <div class="tab-stats">
+              <div class="stat">
+                  <div class="value" id="tabCurrent">0</div>
+                  <div class="label">Current</div>
+              </div>
+              <div class="divider"></div>
+              <div class="stat">
+                  <div class="value" id="tabTotal">0</div>
+                  <div class="label">Total</div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="form-group">
+          <div class="section-title" data-i18n="sectionTitle1"></div>
+          <div class="group-title" data-i18n='groupTitle2'>
+          </div>        
+          <div class="combobox">
+              <select id="selectTheme" class="form-control">
+                  <option data-i18n="lightTheme" value="light"></option>
+                  <option data-i18n="darkTheme" value="dark"></option>
+              </select>
+          </div>
+      </div>
+
+      <div class="section-title" data-i18n="sectionTitle2"></div>
+      <div style="font-size:12px;">
+        <a href="https://www.microsoft.com/store/apps/9N1NSLHMP93W">
+          <div class="group-title" data-i18n="titleMicrosoftEdge"></div>
+        </a>
+        <div class="group-subtitle"><span data-i18n="versionLabel"></span>&nbsp;<span>1.0.1.0</span></div>
+        <div class="group-subtitle"><span data-i18n="copyrightLabel"></span>&nbsp;<span
+            data-i18n="copyrightDisclaimer"></span></div>
+      </div>
+
+      <div class="section-title" data-i18n="sectionTitle3"></div>
+      <div style="font-size:12px;">
+        <div>
+        <a href="https://www.microsoft.com/store/productId/9N0PXW9L3555">
+          <img src="images/apps/qrcode.png" style="padding: 0px 5px;">
+          <span class="group-title">.QR Code for Microsoft Edge<span>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.microsoft.com/store/productId/9NXGCZXQH0NG">
+          <img src="images/apps/colorless.png" style="padding: 0px 5px;">
+          <span class="group-title">Colorless for Microsoft Edge<span>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.microsoft.com/store/productId/9P1JXRFKM0HQ">
+          <img src="images/apps/copyless.png" style="padding: 0px 5px;">
+          <span class="group-title">Copyless for Microsoft Edge<span>
+        </a>
+      </div>
+      </div>
+    </form>
+
+    <button class="close app-close" type="button" aria-label="Close">
+      <span class="glyph glyph-cancel" aria-hidden="true"></span>
+    </button>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>

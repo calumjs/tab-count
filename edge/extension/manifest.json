@@ -1,0 +1,32 @@
+{
+	"manifest_version": 2,
+	"name": "Tab Count for Microsoft Edge",
+	"version": "1.0.1.0",
+	"author": "Hereafter",
+	"browser_action": {
+		"default_icon": {
+			"20": "images/icons/icon_20.png",
+			"40": "images/icons/icon_40.png"
+		},
+		"default_title": "__MSG_titleMicrosoftEdge__",
+		"default_popup": "popup.html"
+	},	
+	"background": {
+		"scripts": [
+			"js/settings.js",
+			"js/background.js"
+		],
+		"persistent": true
+	},
+	"content_security_policy": "script-src 'self'; object-src 'self'",
+	"default_locale": "en",
+	"description": "__MSG_description__",
+	"permissions": [		
+		"tabs"
+	],
+	"icons": {
+		"128": "images/icons/icon_128.png",
+		"16": "images/icons/icon_16.png",
+		"48": "images/icons/icon_48.png"
+	}
+}

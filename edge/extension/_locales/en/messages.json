@@ -1,0 +1,51 @@
+{
+    "titleMicrosoftEdge":{
+        "message":"Tab Count for Microsoft Edge"
+    },
+    "titleMozilaFirefox":{
+        "message":"Tab Count for Mozila Firefox"
+    },
+    "shortTitle":{
+        "message":"TabCount"
+    },
+    "description":{
+        "message":"Display the number of open tabs"
+    },
+    
+    "sectionTitle1":{
+        "message":"Options"
+    },
+    
+    "tabCountSection":{
+        "message":"Tab Count"
+    },
+    
+    "tabCountLabel":{
+        "message":"Current Tabs"
+    },
+    
+    "groupTitle2":{
+        "message":"Theme"
+    },
+    "sectionTitle2":{
+        "message":"About"
+    },
+    "sectionTitle3":{
+        "message":"Other Extensions"
+    },
+    "versionLabel":{
+        "message":"Version"
+    },
+    "copyrightLabel":{
+        "message":"© Hereafter, 2019"
+    },
+    "copyrightDisclaimer":{
+        "message":"All rights reserved."
+    },    
+    "lightTheme":{
+        "message":"Light"
+    },
+    "darkTheme":{
+        "message":"Dark"
+    }
+}
